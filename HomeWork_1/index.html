@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy List</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class="app-container">
+    
+    <main class="content-left">
+        <section class="top-search">
+            <input type="text" id="new-item-input" placeholder="Назва товару">
+            <button class="add-btn" id="add-btn" data-tooltip="Додати">Додати</button>
+        </section>
+        
+        <ul class="product-list" id="product-list">
+        </ul>
+    </main>
+
+    <aside class="sidebar">
+        <section class="stat-box">
+            <h2>Залишилося</h2>
+            <div class="labels-wrap" id="left-stats">
+            </div>
+        </section>
+        
+        <section class="stat-box">
+            <h2>Куплено</h2>
+            <div class="labels-wrap" id="bought-stats">
+            </div>
+        </section>
+    </aside>
+</div>
+
+<div class="my-badge">
+    <div class="badge-head">Buy List</div>
+    <div class="badge-name">Created by:<br>Andrii Ziulkovskyi</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
